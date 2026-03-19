@@ -2,6 +2,8 @@
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 .landing-page-content {
@@ -34,12 +36,13 @@ body {
     margin-left: 20px;
     padding: 0;
     margin-left: auto;
+    font-weight: 500;
 }
 
 .landing-page-container {
     display: flex;
     flex: 1;
-    gap: 20px;
+    gap: 70px;
     justify-content: center;
     align-items: center;
 }
@@ -47,6 +50,7 @@ body {
 .left-info {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .landing-title {
@@ -61,7 +65,7 @@ body {
 }
 
 .image-container {
-    padding: 50px 0 50px 50px;
+    padding: 50px 0;
 }
 
 .landing-image {
@@ -75,6 +79,9 @@ body {
     padding: 10px;
     background-color: #3882F6;
     border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .landing-page-scollable-container {
@@ -108,9 +115,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    justify-content: center;
+    align-items: center;
 }
 
 .box {
+    width: 150px;
     aspect-ratio: 1;
     border-radius: 15px;
     border: 6px solid #3882F6;
@@ -118,4 +128,68 @@ body {
 
 .box-text {
     text-align: center;
+}
+
+.quote-container {
+    padding: 100px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.call-to-action-container {
+    background-color: #F9FAF8;
+    padding: 120px;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.call-to-action-left {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-weight: 300;
+}
+
+.call-to-action-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-to-action-button {
+    margin-left: auto;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    padding: 10px 25px;
+    color: #F9FAF8 ;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    text-align: center
 }
